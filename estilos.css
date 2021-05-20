@@ -1,0 +1,64 @@
+/* 
+LINK COOLORS: https://coolors.co/d5b942-d9d375-e3de8f-edfbc1-b0bfb4 
+*/ 
+
+
+.fondofondo {
+	background-color:#D9D375;
+}
+
+
+.center {
+	margin-top:0.5em;
+	
+}
+
+.ajuste {
+	margin-top:6em;
+}
+
+.card{
+	border: none;
+}
+
+header{
+  	position: relative;
+}
+
+h2{
+	color: #B0BFB4;
+}	
+
+a{
+	color:black;
+}
+		
+a:hover {
+	color:#B0BFB4;
+}
+
+.navbar .navbar-toggler-icon{
+    background: url("img/menu.png") no-repeat center center;
+}
+      
+        
+.navbar-toggler:focus {
+    outline: none;
+}
+
+
+
+li {
+	list-style:none;
+}
+.ul {
+	display:flex;
+}
+
+button:hover {
+	background:#E3DE8F;
+}
+
+#main{
+	margin:80px;
+}
