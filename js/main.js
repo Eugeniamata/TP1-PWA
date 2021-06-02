@@ -31,7 +31,8 @@ function searchWeather(wordToSearch){
     console.log('salio mal!: ', err);
   });
 
-
+//se podria realizar una verificacion en el caso de un 404 
+  
 function cambiarImagenJS(weather,wordToSearch){
   console.log('funcion' , weather);
   console.log('funcion' , wordToSearch);
@@ -54,7 +55,8 @@ function cambiarImagenJS(weather,wordToSearch){
    } 
 }
 
-
+// para evitar el uso repetitivo de  if y elseif, se podia usar una ruta en donde cambiara solo el atributo de la img, algo 
+  //tipo clima[weather].png, asi se evita el uso de if y se recorren todas los posibles casos
 }
 
 function madeGrid(data){
